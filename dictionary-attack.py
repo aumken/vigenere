@@ -36,6 +36,5 @@ def hack(cipherText):
 
     print("complete.")
 
-
 cipherText = "EDIT ME" # the longer the cipher the better
 hack = hack(cipherText)
