@@ -1,5 +1,9 @@
 # vigenere
 
+A Vigenere cipher with two decryption tools: a brute-force dictionary attack, and a kasiski examination which uses n-gram character repetitions in large text samples to conduct frequency analysis.
+
+Made with: Python
+
 before i figure out how to break the enigma, i think it would be wise to try and crack a simpler polyalphabetic code: the vigenere cipher. based on the letters of a keyword, the vigenere cipher uses interwoven caesar ciphers to encrypt alphabetic text.
 
 in a caesar cipher, each letter of a message is shifted by some number of places. in a caesar cipher with a shift of 4, the letter 'a' might correspond to 'e' and the letter 'f' might become 'j'. in a vigenere cipher, each letter has a different shift value based on the key.
