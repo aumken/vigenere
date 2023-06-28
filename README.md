@@ -31,7 +31,7 @@ this logic is so simple yet so fascinating. in a cipher text, we can capitalize 
 #### finding key letters using frequency analysis
 after figuring out the key length, we can conduct frequency analysis to figure out the letters of the key. the basis of frequency analysis relies on the frequency of letter usage in the english language.
 
-![frequency](/images/frequency.png)
+![frequency](/frequency.png)
 from [cornell's dept of math](http://pi.math.cornell.edu/~morris/135/letfreq.html)
 
 for each index of our key, we need to iterate through the alphabet and calculate the letter which produces a frequency distribution that most closely resembles the relative frequency of letters in english. i did this by assigning each potential letter in the key with a score that is equal to the sum of the individual letter occurances in the deciphered text * letter relative frequency in english. by taking the highest value of this score, we can find a letter for the key which produces deciphered text that most closely mirrors the standard letter frequency. 
